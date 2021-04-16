@@ -1,0 +1,76 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Orelega+One&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(250, 250, 250, 0.1);
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  background: rgb(221, 218, 175);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.container-head {
+  padding: 0 2rem;
+  margin-bottom: 1.3rem;
+}
+
+.container-head a {
+  display: block;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding-bottom: 0.3rem;
+}
+
+h2{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+ul{
+  padding: 0.1rem;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 5px 3px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (max-width: 320px){
+  main{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-head{
+    padding: 0;
+  }
+}
+/* 
+
+@media screen and (min-width: 320px){
+  main{
+    width: 100%;
+    padding: 0;
+  }
+} */
